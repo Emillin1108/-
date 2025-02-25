@@ -10,7 +10,6 @@ header {
   background-color: #f06666;
   color: white;
   padding: 20px 0;
-  position: fixed;
    top: 0; /* 确保导航栏紧贴顶部 */
   left: 0;
   width: 100%;
@@ -270,6 +269,443 @@ footer {
   100% {
     opacity: 1;
   }
+}
+
+/* 其他样式代码... */
+/* 其他样式代码... */
+
+.scenic-spots-main {
+  max-width: 1200px;
+  margin: 80px auto 50px; /* 顶部留出导航栏的空间 */
+  padding: 0 20px;
+}
+
+.scenic-spot {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.scenic-spot img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.spot-info {
+  padding: 20px;
+}
+
+.spot-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.spot-info p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #007BFF;
+}
+
+/* 其他样式代码... */
+/* 其他样式代码... */
+
+.food-exploration-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.food-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.food-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.food-info {
+  padding: 20px;
+}
+
+.food-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.food-info p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #007BFF;
+}
+
+/* 其他样式代码... */
+/* 其他样式代码... */
+
+.cultural-activities-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.activity-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.activity-info {
+  padding: 20px;
+}
+
+.activity-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.activity-info p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #007BFF;
+}
+
+/* 其他样式代码... */
+
+/* 其他样式代码... */
+
+.accommodation-transportation-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.accommodation-section,
+.transportation-section {
+  margin-bottom: 40px;
+}
+
+.accommodation-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accommodation-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.accommodation-info {
+  padding: 20px;
+}
+
+.accommodation-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.accommodation-info p {
+  margin-bottom: 10px;
+}
+
+.transportation-method {
+  margin-bottom: 20px;
+}
+
+.transportation-method h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.transportation-method ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  background-color: #0096FF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #007BFF;
+}
+
+/* 其他样式代码... */
+
+/* 其他样式代码... */
+
+.travel-guide-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.itinerary,
+.notes,
+.budget {
+  margin-bottom: 40px;
+}
+
+.itinerary h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.itinerary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.itinerary li {
+  margin-bottom: 20px;
+}
+
+.notes ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.budget table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.budget th,
+.budget td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.budget th {
+  background-color: #f2f2f2;
+}
+
+/* 其他样式代码... */
+
+/* 其他样式代码... */
+
+.about-us-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.about-intro,
+.team-intro,
+.contact-info,
+.feedback {
+  margin-bottom: 40px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.feedback form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.feedback form input,
+.feedback form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feedback form input[type="submit"] {
+  background-color: #0096FF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback form input[type="submit"]:hover {
+  background-color: #007BFF;
+}
+
+/* 其他样式代码... */
+
+/* 其他样式代码... */
+
+.nanao-island-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.island-intro,
+.attractions,
+.food-recommendations,
+.travel-guide {
+  margin-bottom: 40px;
+}
+
+.attraction-item,
+.food-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.attraction-item img,
+.food-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.attraction-info,
+.food-info {
+  padding: 20px;
+}
+
+.attraction-info h3,
+.food-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.travel-guide h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* 其他样式代码... */
+/* 其他样式代码... */
+
+.chaoshan-goose-main {
+  max-width: 1200px;
+  margin: 80px auto 50px;
+  padding: 0 20px;
+}
+
+.goose-intro,
+.history,
+.production-process,
+.taste-experience,
+.shop-recommendations {
+  margin-bottom: 40px;
+}
+
+.production-process ol {
+  padding-left: 20px;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.shop-item img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.shop-info {
+  padding: 20px;
+}
+
+.shop-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.shop-info p {
+  margin-bottom: 10px;
 }
 
 /* 其他样式代码... */

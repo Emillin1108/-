@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 顶部导航栏，复用首页导航栏 -->
+    <header>
+        <nav>
+            <a href="#" class="logo-link">
+                <img src="images/shantou_culture_logo.png" alt="汕头文旅局 logo" class="logo-img">
+            </a>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="scenic_spots.html">景点推荐</a></li>
+                <li><a href="food_exploration.html">美食探索</a></li>
+                <li><a href="cultural_activities.html">文化活动</a></li>
+                <li><a href="accommodation_transportation.html">住宿与交通</a></li>
+                <li><a href="travel_guide.html">旅行攻略</a></li>
+                <li><a href="about_us.html">关于我们</a></li>
+            </ul>
+            <div class="language-switch">中文 | EN</div>
+        </nav>
+    </header>
+
+    <!-- 关于我们内容 -->
+    <main class="about-us-main">
+        <h1>关于我们</h1>
+
+        <!-- 机构简介 -->
+        <section class="about-intro">
+            <h2>机构简介</h2>
+            <p>汕头市文旅局全称为汕头市文化广电旅游体育局，是负责统筹规划全市文化事业、文化产业、广播电视领域、体育事业和旅游业发展的政府部门。我们致力于保护和传承汕头丰富的历史文化遗产，推广汕头的特色旅游资源，促进文化和旅游的深度融合，为市民和游客提供优质的文化和旅游体验。</p>
+        </section>
+
+        <!-- 团队介绍 -->
+        <section class="team-intro">
+            <h2>团队介绍</h2>
+            <p>我们拥有一支专业、热情、富有创新精神的团队，团队成员涵盖了文化研究、旅游策划、市场营销、信息技术等多个领域的专业人才。大家齐心协力，为推动汕头文旅事业的发展贡献着自己的力量。无论是挖掘汕头的文化内涵，还是策划精彩的旅游活动，我们都力求做到最好。</p>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="contact-info">
+            <h2>联系方式</h2>
+            <ul>
+                <li><strong>地址</strong>: [汕头市金平区海滨路1号]</li>
+                <li><strong>电话</strong>: [12345678]</li>
+                <li><strong>邮箱</strong>: [shantouwenlv@163.com]</li>
+                <li><strong>办公时间</strong>: [工作日上午9点-下午5点]</li>
+            </ul>
+        </section>
+
+        <!-- 反馈建议 -->
+        <section class="feedback">
+            <h2>反馈建议</h2>
+            <p>我们非常重视您的意见和建议，如果您对我们的网站、文旅活动或者其他方面有任何想法，欢迎通过以下方式与我们联系：</p>
+            <form action="#">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">邮箱:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">留言内容:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <input type="submit" value="提交">
+            </form>
+        </section>
+    </main>
+
+    <!-- 底部，复用首页底部 -->
+    <footer>
+        <p>版权所有 &copy; 汕头市文旅局</p>
+        <p>网站建设、维护相关信息</p>
+        <div>
+            <a href="#">微信公众号</a>
+            <a href="#">微博</a>
+            <a href="#">抖音</a>
+        </div>
+        <p><a href="#">网站地图</a> | <a href="#">常见问题解答</a> | <a href="#">隐私政策</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
